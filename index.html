@@ -44,13 +44,6 @@
     </section>
 
 
-
-
-
-
-
-
-
     <section class="Products-page" id="Products">
 <div class="prodact-car">
 
@@ -71,17 +64,6 @@
 
 </div>
 
-
-
-<script>
-  function changeImage(newSrc) {
-    document.getElementById("originnn").src = newSrc;
-  }
-
-  function restoreImage() {
-    document.getElementById("originnn").src = "img/black.jpg";
-  }
-</script>
 
 <div class="prise-prodact">
 
@@ -174,15 +156,6 @@
 
 
 
-<script>
-  function changeImagemodel(newSrc) {
-    document.getElementById("originrimage").src = newSrc;
-  }
-
-  function restoreImagemodel() {
-    document.getElementById("originrimage").src = "img/mmodel-tow-inseed.jpg";
-  }
-</script>
 
 <!-----------------------       produi 3-->
 <div class="prodact-car">
@@ -190,13 +163,6 @@
 
   <div class="img-procat">
   
-
-
-
-
-
-
-
   
   <div class="img-img"><img id="model-thre" src="img/model__33.jpg"  width="90%" height="90%" alt="black car"  alt="Original Image" onmouseover="changeImage33()" onmouseout="restoreImage33()" ></div>
   
@@ -210,18 +176,6 @@
                     </div>
   
   </div>
-  
-  <script>
-    function changeImagemodel33(newSrc) {
-        document.getElementById("model-thre").src = newSrc;
-    }
-
-    function restoreImagemodel33() {
-        document.getElementById("model-thre").src = "img/model__33.jpg";
-    }
-</script>
-
-
 
 
 
@@ -317,16 +271,16 @@
          
             <form action="https://formspree.io/f/xoqogqyn" method="POST">
             <div class="input-box">
-              <input type="name" name="name" placeholder="Enter your name">
+              <input type="name" name="name" placeholder="Entrez votre nom">
             </div>
             <div class="input-box">
-              <input type="email" name="email" placeholder="Enter your email">
+              <input type="email" name="email" placeholder="Entrer votre Email">
             </div>
             <div class="input-box message-box">
-                <input type="text" name="textarea" placeholder="Enter your message">
+                <input type="text" name="textarea" placeholder="Enter  votre message">
             </div>
             <div class="button">
-              <input type="submit" value="Send Now" >
+              <input type="submit" value="envoyer " >
             </div>
           </form>
         </div>
@@ -356,7 +310,7 @@
 <div class="fottor-contact">
 <form action="https://formspree.io/f/xoqogqyn" method="POST">
 <h1>Contact Us</h1>
-<input type="email"name="email" placeholder=" Entre your email">
+<input type="email"name="email" placeholder=" Entrer votre Email">
 <br>
 <button  type="submit" value="Send Now">envoyer</button>
 </div>
@@ -370,60 +324,8 @@
  </body>
 
 
-
-
-
-
-
-
-
-<script>
-  /* paste this line in verbatim */
-  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
-  /* customize formbutton below*/     
-  formbutton("create", {
-    action: "https://formspree.io/f/xoqogqyn",
-    title: "How can we help?",
-    fields: [
-      { 
-        type: "email", 
-        label: "Email:", 
-        name: "email",
-        required: true,
-        placeholder: "send me your email "
-      },
-      {
-        type: "textarea",
-        label: "Message:",
-        name: "name",
-        placeholder: "What's on your mind?",
-      },
-      { type: "submit" }      
-    ],
-    styles: {
-      title: {
-        backgroundColor: "gray"
-      },
-      button: {
-        backgroundColor: "gray"
-      }
-    }
-  });
-</script>
-
-
+               
 
   <script src="java.js"></script>
-              <script>
-let red01 = document.querySelector('.red01')
-
-window.onscroll = function(){
-    if(scrollY >= 300){
-        red01.style.display ='block';
-    }else{
-        red01.style.display ='none';}}
-    red01.onclick = function(){
-        scroll({left:0,top:0,behavior:"smooth"})}
-
-                 </script>
+            
 </html>
