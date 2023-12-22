@@ -136,6 +136,23 @@ a {
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .left-side {
   width: 100%;
   padding-top: 15%;
@@ -172,22 +189,23 @@ a {
 
 }
 
-/*   */
+/*  ////////////////////////////////////////////////////////////////////// */
 .Products-page {
 
   width: 100%;
-  height: 500px;
-  background-color: transparent;
+
   padding-top: 10%;
 
   padding-bottom: 30px;
 }
 
+
+
+
 .prodact-car {
   width: 95%;
   height: 700px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-
   margin: auto;
   background-color: rgba(255, 255, 255, 0.673);
   border-radius: 10px;
@@ -197,6 +215,7 @@ a {
 
 }
 
+/*///////////////////////////////////////////////////////////////////////////////////*/
 .img-procat {
   width: 50%;
   /* border-right: 2px solid black; */
@@ -360,10 +379,12 @@ background-color: #FD384F;
   border-radius: 10px;
 }
 
-/* ABOUT US S*/
+/* ABOUT US S ///////////////////////////////////////////////////////////////////////////*/
+
+
 .About-page {
   width: 100%;
-  height: 700px;
+padding-bottom: 30px;
   background-color: transparent;
 }
 .About-page{padding-top: 100px;}
@@ -375,6 +396,7 @@ background-color: #FD384F;
   border-radius: 15px;
   padding: 10px;
 }
+/* //////////////////////////////////////////////*/
 
 .texte-areat h1 {
   text-align: center;
@@ -707,7 +729,7 @@ background-color: #FD384F;
 
 cursor: pointer;
 }
-
+.member01{display: flex;}
 
 /*/////////////////*/
 .bactotop{background-color: rgba(255, 255, 255, 0.671);}
@@ -718,3 +740,74 @@ cursor: pointer;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left:46%;}
     .cop{background-color: #4a98f7;text-align: center;font-weight: bold;letter-spacing: 2px;}
+
+
+
+
+    @media (max-width: 1038px) {
+      .see-moor {
+        width: 30%;
+   
+      }
+      .left-side h1 {
+        padding-top: 150px;
+        color: #4a98f7;
+        font-size: 4ch;}
+  .members-club{display: block;}
+  .member{width: 90%;margin: auto;}
+  .container{margin: auto;}
+
+}
+
+
+@media (max-width: 900px) {
+
+
+
+
+  .see-moor {
+    width: 45%;
+
+  }
+
+
+.prodact-car{display: block;height: fit-content;}
+.img-procat{width: 100%;}
+
+
+.prise-prodact {
+  width: 100%;
+
+}
+
+
+
+  .fotter {
+
+    width: 100%;
+   height:870px ;
+    background-color: #4a98f7;
+    display: block;
+  
+  }
+  .fotoor-members {
+    width: 100%;
+    text-align: center;padding-top: 30px;letter-spacing: 2px;}
+.fotoor-logo { width:100%;}
+.fotoor-members{width:100%;}
+.fottor-contact{width:100%;padding-top: 50px;}
+
+
+
+}
+
+
+@media (max-width: 450px) {
+
+
+
+
+
+
+
+}
