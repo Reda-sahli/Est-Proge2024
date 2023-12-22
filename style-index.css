@@ -7,7 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  transition: .5;
+  transition: 0.5em;;
 }
 
 body {
@@ -204,7 +204,7 @@ a {
 
 .prise-prodact {
   width: 50%;
-  border-left: 2px solid #373838af;
+  /* border-left: 2px solid #373838af; */
   padding: 30px;
 
 
@@ -278,6 +278,7 @@ a {
   border-radius: 10px;
   padding: 10px;
   margin-top: 30px;
+  transition: 0.5s;
 
 
 }
