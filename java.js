@@ -22,16 +22,6 @@ navCloseBtn.addEventListener("click", () => {
 });
 
 
-
-
-
-
-
-
-
-
-
-
 function changeImage(newSrc) {
   document.getElementById("originnn").src = newSrc;
 }
@@ -41,7 +31,6 @@ function restoreImage() {
 }
 
 
-
 function changeImagemodel(newSrc) {
   document.getElementById("originrimage").src = newSrc;
 }
@@ -49,9 +38,6 @@ function changeImagemodel(newSrc) {
 function restoreImagemodel() {
   document.getElementById("originrimage").src = "img/mmodel-tow-inseed.jpg";
 }
-
-
-
 
 function changeImagemodel33(newSrc) {
     document.getElementById("model-thre").src = newSrc;
